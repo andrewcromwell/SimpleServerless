@@ -27,6 +27,12 @@ It would be better if we could be more selective about which sites are allowed t
 
 Fortunately, Microsoft has a [way](https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings) to let you specify which sites are allowed to access your Azure functions, and all within the Azure portal. No code changes needed.
 
+More specifically, you just:
+1. navigate to your function,
+2. click on the *Platform Features* tab,
+3. under *API*, click *CORS*,
+4. add the name of your static website.
+
 ## Room for Improvement
 * There should be an actual database
 * The app should allow CRUD, not just R
