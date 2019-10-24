@@ -22,10 +22,10 @@ I'm assuming you have Visual Studio 2019 installed with the Azure Development wo
 ## Roadblock
 
 CORS usually won't let a front-end application make requests to different websites. That is, unless the requested resource uses `Access-Control-Allow-Origin: *`
-It would be better if we could be mroe selective about which sites are allowed to access our Azure function.
+It would be better if we could be more selective about which sites are allowed to access our Azure function.
 ## Resolution
 
-Fortunately, Microsoft has a [way](https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings) to let you specify which sites are allwoed to access your Azure functions, and all within the Azure portal. No code changes needed.
+Fortunately, Microsoft has a [way](https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings) to let you specify which sites are allowed to access your Azure functions, and all within the Azure portal. No code changes needed.
 
 ## Room for Improvement
 * There should be an actual database
